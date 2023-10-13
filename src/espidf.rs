@@ -231,7 +231,7 @@ impl EspIdf {
             esp_idf_dir,
             exported_path: path_var,
             venv_python: python,
-            is_managed_espidf: true,
+            is_managed_espidf: false,
         })
     }
 }
